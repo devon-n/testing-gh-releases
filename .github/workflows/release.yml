@@ -7,8 +7,10 @@
           - "main"
 
     jobs:
-      pre-release:
-        name: "Pre Release"
+      release:
+        name: "Release"
+        permissions:
+            contents: write
         runs-on: "ubuntu-latest"
 
         steps:
